@@ -38,6 +38,9 @@
     {
                 "name": "小云",
                 "url": "https://xcz.funly.us/tvbus/xiaoyun.m3u",
+	        "playerType": 2,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.v1.mk/logo/{name}.png"
                 "core": {
                           "auth": "local://tvbus",
                           "name": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",

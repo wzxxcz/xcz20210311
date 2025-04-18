@@ -2,7 +2,40 @@
   "spider": "./wzx.jar",
   "wallpaper": "https://xcz.funly.us/xcz.php",
   "logo": "https://xcz.funly.us/logo.php",
-    
+   "lives": [
+    {
+      "name": "小橙子电视",
+      "type": 0,
+      "url": "https://xcz.funly.us/live.txt",
+      "playerType": 2,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.v1.mk/logo/{name}.png"
+    },
+    {
+      "name": "海外电视",
+      "type": 0,
+      "url": "https://vip.iptv365.org/live2025.txt",
+      "playerType": 2,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.v1.mk/logo/{name}.png"
+    },
+    {
+      "name": "Gather电视直播",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/Gather",
+      "playerType": 2,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.v1.mk/logo/{name}.png"
+    },
+    {
+      "name": "小橙子台湾",
+      "type": 0,
+      "url": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "playerType": 2,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.v1.mk/logo/{name}.png"
+    }
+          ], 
   "sites":[
 {
   "key": "豆瓣",
@@ -3050,37 +3083,6 @@
   "changeable": 0
 }
 ],
-"lives": [
-   {
-      "name": "小橙子电视",
-      "type": 0,
-      "url": "https://xcz.funly.us/live.txt",
-      "playerType": 1,
-      "logo": "https://live.fanmingming.com/tv/{name}.png"
-    },
-    {
-      "name": "海外电视",
-      "type": 0,
-      "url": "https://vip.iptv365.org/live2025.txt",
-      "playerType": 1
-    },
-    {
-      "name": "Gather电视直播",
-      "type": 0,
-      "url": "https://tv.iill.top/m3u/Gather",
-      "playerType": 1,
-      "logo": "https://live.fanmingming.com/tv/{name}.png"
-    },
-    {
-      "name": "小橙子台湾",
-      "type": 0,
-      "url": "https://iptv-org.github.io/iptv/countries/tw.m3u",
-      "ua": "okhttp/3.15",
-      "playerType": 2
-    }
-    
-  
-          ],
   "parses": [
     {
       "name": "☯️自动解析聚合",
